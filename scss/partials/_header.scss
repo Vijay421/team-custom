@@ -1,4 +1,31 @@
-body
+.header
 {
-	background: red;
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+.header__account
+{
+	width: 16%;
+	display: flex;
+	align-items: center;
+}
+
+.header__account--image
+{
+	width: 30px;
+	height: 30px;
+	padding:5px;	
+}
+
+.header__account--name
+{
+	width: 100%;
+}
+
+.header__account--icon
+{
+	width: 25%;
+	margin-right: 10px;
+	color: rgba(192,192,192,0.3); 
 }
