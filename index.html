@@ -6,21 +6,78 @@
 	<meta name="author" content="team-custom">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="scss/partials/_header_section.scss">
-	<title>Dashbord</title>
+	<title>Dashboard</title>
 </head>
 	<body>
-		<section class="container">
-			<h2>Overdue Payments
-				<span class ="color"> $1500</span>
-			</h2>
-			<div class="button">
-				<button class="right">Send a Reminder</button>
-			</div>
-			<div class="button-clear">
-				<button class="left">Record Payment</button>
-			</div>
+<!--                                 -->
+		<section class="payments-section">
+			<section class="container">
+				<h2>Overdue Payments
+					<span class ="amount-color"> $1,590</span>
+				</h2>
+				<div class="button__reminder">
+					<button class="button__reminder--left">Send a Reminder</button>
+				</div>
+				<div class="button__payment">
+					<button class="button__payment--right">Record Payment</button>
+				</div>
+			</section>
+			<!--                           -->
+			<section class="payments-colunms">
+				<div class="payments-colunm">
+					<header class="payments-colunm__header payments-colunm__header--small">
+						<p class="payments-colunm__title">0-15 Days Late </p>
+						<span class="payments-colunm__counter">
+							<p class="payments-colunm__counter--number">3</p>
+						</span>
+					</header>
+	
+					<article class="payment">
+
+					</article>
+
+					<article class="payment">
+						
+					</article>
+				</div>
+
+				<div class="payments-colunm">
+					<header class="payments-colunm__header payments-colunm__header--medium">
+						<p class="payments-colunm__title">16-30 Days Late </p>
+						<span class="payments-colunm__counter">
+							<p class="payments-colunm__counter--number">2</p>
+						</span>
+					</header>
+	
+					<article class="payment">
+
+					</article>
+
+					<article class="payment">
+						
+					</article>
+				</div>
+
+				<div class="payments-colunm">
+					<header class="payments-colunm__header payments-colunm__header--large">
+						<p class="payments-colunm__title">31-more Days Late </p>
+						<span class="payments-colunm__counter">
+							<p class="payments-colunm__counter--number">3</p>
+						</span>
+					</header>
+	
+					<article class="payment">
+
+					</article>
+
+					<article class="payment">
+						
+					</article>
+				</div>
+			</section>
 		</section>
 	</body>
 </html>

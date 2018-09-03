@@ -3,7 +3,6 @@ body{
   margin:0;
 }
 
-
 .container {
   display: flex;
   flex-direction: row;
@@ -11,38 +10,38 @@ body{
   flex-wrap: wrap;
   gap: 15px;
   margin-left: 260px;
-
 }
 
-.button {
+.button__reminder {
   margin-left: 45%;
   margin-top: 10px;
 }
-.right{
-  background-color: #51c65b;
-  color: white;
-  text-align: center;
-  padding: 10px 30px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.left{
-  background-color: #51c65b;
-  color: white;
-  text-align: center;
-  padding: 10px 30px;
-  text-decoration: none;
-  display: inline-block;
-}
-.button-clear{
+.button__payment {
   margin-top: 10px;
-
-}
-.header__heading{
-  margin-left: 80px;
 }
 
-.color{
+.button__reminder--left {
+  color: black;
+  background-color: #51c65b;
+  background:transparent;
+  text-align: center;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.button__payment--right {
+  background-color: #51c65b;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.amount-color{
   color:#e22944;
+  margin-left: 13px;
 }
