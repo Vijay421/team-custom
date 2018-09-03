@@ -1,11 +1,6 @@
-.header
-{
-	display: flex;
-	flex-wrap: nowrap;
-
-}
 .header__account
 {
+	margin-right: 10%;
 	width: 16%;
 	display: flex;
 	align-items: center;
@@ -28,4 +23,23 @@
 	width: 25%;
 	margin-right: 10px;
 	color: rgba(192,192,192,0.3); 
+}
+.header{
+	margin-left: 10%;
+	width: 85%;
+	height: 10%;
+	border: 1px black solid;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.header__search--bar{
+	width: 95%;
+	height: 45px;
+	border: none;
+}
+.header__search{
+	width: 70%;
+}
+.fas{
+	margin-left: 1%;
 }
