@@ -1,72 +1,92 @@
-.header__account
-{
-	margin-right: 10%;
-	width: 20%;
-	display: flex;
-	align-items: center;
-}
 
-.header__account--image
-{
-	width: 30px;
-	height: 30px;
-	padding:5px;	
-}
-
-.header__account--name
-{
-	width: 100%;
-}
-
-.header__account--icon
-{
-	width: 25%;
-	margin-right: 10px;
-	color: rgba(192,192,192,0.3); 
-}
-.header{
+.toppage-header {
 	margin-left: 10%;
+	/*change width to 100% when it is in the main*/
 	width: 85%;
 	height: 10%;
 	border: 1px black solid;
 	display: flex;
 	flex-wrap: nowrap;
+	box-shadow: 0 5px 10px -5px gray;
 }
-.header__search--bar{
-	width: 95%;
-	height: 45px;
-	border: none;
+
+.account {
+	width: 20%;
+	display: flex;
+	align-items: center;
+
+	&__image {
+		width: 30px;
+		height: 30px;
+		padding:5px;
+	}
+
+	&__name {
+		width: 100%;
+	}
+
+	&__icon {
+		width: 25%;
+		margin-right: 10px;
+		color: rgba(192,192,192,0.3); 
+	}
 }
-.header__search{
+
+.search {
 	width: 70%;
-}
-.fas{
-	margin-left: 1%;
+	display: flex;
+	align-items: center;
+
+	&__bar {
+		width: 95%;
+		height: 45px;
+		border: none;
+		padding-left: 20px;
+	}
+
+	&__icon {
+		font-size: 23px;
+		padding-left: 10px; 
+		color: rgba(192,192,192,0.3); 
+	}
+
 }
 
-.header__help
-{
-	float: right;
-	width: 50px;
-	height: 50px;
-	border-left: solid rgba(192,192,192,0.3) 1px;
+::placeholder {
+		color: rgba(192,192,192,0.5);
 }
 
-.header__help--image {
-	width: 23px;
-	padding: 14px;
-	height: 23px;
-	color: rgba(192, 192, 192, 0.3);
-	filter: grayscale(100%);
-	transform: rotateZ(45deg);
+.fas {
+		margin-left: 1%;
 }
-.header__notifications--icon{
-	border-left: solid rgba(192,192,192,0.3) 1px;
-	width: 50px;
-	height: 50px;
+
+.help {
+		float: right;
+		width: 60px;
+		height: 60px;
+		border-left: solid rgba(192,192,192,0.3) 1px;
+
+	&__image {
+		width: 23px;
+		padding: 19px;
+		height: 23px;
+		color: rgba(192, 192, 192, 0.3);
+		filter: grayscale(100%);
+		transform: rotateZ(45deg);
+	}
 }
-.header__notifications--image{
-	height: 24px;
-	width: 24px;
-	padding: 11px;
+
+.notifications {
+
+	&__icon {
+		border-left: solid rgba(192,192,192,0.3) 1px;
+		width: 60px;
+		height: 60px;
+	}
+
+	&__image {
+		height: 24px;
+		width: 24px;
+		padding: 18px;
+	}
 }
