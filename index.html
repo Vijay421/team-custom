@@ -7,10 +7,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/index.css">
 	<title>Dashbord</title>
 </head>
 	<body>
+	<main>
+		<div class="wrapper">
+	<header class="toppage-header">
+		<div class="search">
+            <span class="search__icon">
+                <i class="fas fa-search"></i>
+            </span>
+			<input type="search" class="search__bar" placeholder="Search for...">
+		</div>
+		<div class="account">
+			<img class="account__image" src="https://image.flaticon.com/icons/png/512/305/305997.png">
+			<div class="account__name">Charlotte Hornets</div>
+
+			<span class="account__icon"><i class="fas fa-angle-down"></i></span>
+
+		</div>
+
+		<div class="notifications">
+			<span class="notifications__icon">
+				<img class="notifications__image" src="scss/partials/bell-regular.svg">
+			</span>
+		</div>
+
+		<div class="help">
+			<span class="help__icon"><img class="help__image" src="scss/partials/help.png"></span>
+		</div>
+	</header>
 		<section class="payments-section">
 			<section class="payments-colunms">
 				<div class="payments-colunm">
@@ -65,5 +93,7 @@
 				</div>
 			</section>
 		</section>
+		</div>
+	</main>
 	</body>
 </html>
