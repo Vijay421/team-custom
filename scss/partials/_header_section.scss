@@ -9,7 +9,6 @@ html {
     padding:0;
     margin:0;
   }
-
   .container {
     display: flex;
     flex-direction: row;
@@ -17,7 +16,6 @@ html {
     flex-wrap: wrap;
    justify-content:space-around;
   }
-
   .button__reminder--left {
     color: dimgrey;
     background-color: #f7f8f9;
@@ -27,9 +25,7 @@ html {
     border-radius: 1px;
     display: inline-block;
     border: 1px solid lightgrey;
-
   }
-
   .button__payment--right {
     background-color: #51c65b;
     color: white;
@@ -44,7 +40,6 @@ html {
     margin-top: 23.5px;
 
   }
-
   .amount-color{
     color:#e22944;
     margin-left: 13px;
@@ -52,3 +47,4 @@ html {
 h2{
   margin-right: 665px;
 }
+
