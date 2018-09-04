@@ -14,16 +14,8 @@ html {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
-    flex-wrap: nowrap;
-    margin-left: 260px;
-  }
-
-  .button__reminder {
-    margin-left: 45%;
-    margin-top: 10px;
-  }
-  .button__payment {
-    margin-top: 10.5px;
+    flex-wrap: wrap;
+   justify-content:space-around;
   }
 
   .button__reminder--left {
@@ -35,7 +27,6 @@ html {
     border-radius: 1px;
     display: inline-block;
     border: 1px solid lightgrey;
-    margin-right: 15px;
 
   }
 
@@ -49,6 +40,8 @@ html {
     border:none;
     border-radius: 1px;
     cursor: pointer;
+    margin-left: 15px;
+    margin-top: 23.5px;
 
   }
 
@@ -56,3 +49,6 @@ html {
     color:#e22944;
     margin-left: 13px;
   }
+h2{
+  margin-right: 665px;
+}
