@@ -1,5 +1,5 @@
 html {
-  background: url(../../../images/background-template.jpg) no-repeat center center fixed;
+  background: url(../../images/background-template.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ html {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 15px;
     margin-left: 260px;
   }
@@ -24,18 +24,19 @@ html {
     margin-top: 10px;
   }
   .button__payment {
-    margin-top: 10px;
+    margin-top: 10.5px;
   }
 
   .button__reminder--left {
-    color: lightgrey;
+    color: dimgrey;
     background-color: #f7f8f9;
     text-align: center;
     padding: 10px 30px;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 1px;
     display: inline-block;
     border: 1px solid lightgrey;
+
   }
 
   .button__payment--right {
@@ -45,14 +46,13 @@ html {
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
-    border-radius: 2px;
+    border:none;
+    border-radius: 1px;
+    cursor: pointer;
+
   }
 
   .amount-color{
     color:#e22944;
     margin-left: 13px;
-  }
-
-  .background__image{
-
   }
