@@ -15,7 +15,6 @@ html {
     flex-direction: row;
     margin-top: 150px;
     flex-wrap: nowrap;
-    gap: 15px;
     margin-left: 260px;
   }
 
@@ -36,6 +35,7 @@ html {
     border-radius: 1px;
     display: inline-block;
     border: 1px solid lightgrey;
+    margin-right: 15px;
 
   }
 
