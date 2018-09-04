@@ -1,6 +1,6 @@
-var list = document.getElementsByClassName("navbar__list");
+var list = document.getElementsByClassName("navbar");
 
-var items = document.getElementsByClassName("navbar__link");
+var items = document.getElementsByClassName("navbar__item");
 
 for (var i = 0;  i < items.length; i++) {
 	items[i].addEventListener("click", function() {
