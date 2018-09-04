@@ -1,0 +1,97 @@
+
+body {
+  height: 100vh;
+}
+
+.navbar-section {
+  width: 5%;
+  height: 100%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 1fr);
+    list-style-type: none;
+    grid-row-gap: 10px;
+    height: 100%;
+
+    &__icon {
+      width: 40%;
+      height: auto;
+      margin: auto;
+    }
+
+    &__icon--margin {
+      margin-left: 4.5px;
+    }
+
+    &__item {
+      color: rgba(192,192,192,0.5);
+      padding: 17.5px 34px;
+      text-decoration: none;
+      transition: 1s;
+    }
+
+    &__item:hover {
+        background-color: #fff;
+        color: #21990b;
+        border-left: solid #21998b 3px; 
+        transition: 1s;
+    }
+
+    &__logo {
+      justify-self: center;
+      grid-column: 1/2;
+    }
+
+    &__apps {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 5/6;
+    }
+
+    &__share {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 6/7;
+    }
+
+    &__friends {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 7/8;
+    }
+
+    &__menu {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 8/9;
+    }
+
+    &__menu--bottom {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 12/12;
+    }
+
+    &__logo {
+      margin: 0;
+      padding: 0;
+      margin-top: 17%;
+    }
+
+    &__letter {
+      font-size: 30px;
+      font-weight: bold;
+      color: #21990b;
+    }
+
+}
+
+.active {
+  background-color: #fff;
+  color: #21990b;
+  border-left: solid #21998b 3px;
+}
+

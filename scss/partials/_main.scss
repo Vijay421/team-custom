@@ -4,7 +4,12 @@ main{
   width: 100vw;
 }
 .wrapper {
-  flex-flow: row wrap;
-  border: black 2px solid;
-  width: 90%;
+	display: flex;
+	border: black 2px solid;
+	width: 90%;
+	flex-flow: row nowrap;
+
+	&__left {
+		width: 95%;
+	}
 }
