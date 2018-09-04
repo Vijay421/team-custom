@@ -10,7 +10,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/index.css">
-	<title>Dashbord</title>
+	<link rel="stylesheet" href="scss/partials/_header_section.scss">
+	<title>Dashboard</title>
 </head>
 	<body>
 	<main>
@@ -41,6 +42,17 @@
 		</div>
 	</header>
 		<section class="payments-section">
+			<section class="container">
+				<h2>Overdue Payments
+					<span class ="amount-color"> $1,590</span>
+				</h2>
+				<div class="button">
+					<button class="button__reminder--left">Send a Reminder</button>
+					<button class="button__payment--right">Record Payment</button>
+
+				</div>
+		</section>
+			<!--                           -->
 			<section class="payments-colunms">
 				<div class="payments-colunm">
 					<header class="payments-colunm__header payments-colunm__header--small">
@@ -109,7 +121,6 @@
 						</footer>
 					</article>
 				</div>
-
 				<div class="payments-colunm">
 					<header class="payments-colunm__header payments-colunm__header--medium">
 						<p class="payments-colunm__title">16-30 Days Late </p>
