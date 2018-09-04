@@ -12,9 +12,10 @@ html {
   .container {
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
-    flex-wrap: wrap;
-   justify-content:space-around;
+    flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 0 3% 0 6%;
+
   }
   .button__reminder--left {
     color: dimgrey;
@@ -44,7 +45,9 @@ html {
     color:#e22944;
     margin-left: 13px;
   }
-h2{
-  margin-right: 665px;
+
+.payments-section {
+    background-color: #F7F8F9;
+    padding: 0 40px 0 0;
 }
 
