@@ -5,24 +5,33 @@
 	<meta name="keywords" content="HTML, CSS">
 	<meta name="author" content="team-custom">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="css/index.css">
 	<title>Navbar</title>
 </head>
 	<body>
 
-	<ul>
-		<li><a href="#home">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
-		<li><a href="#about">About</a></li>
-	</ul>
+<section class="navbar-section">
+	<nav class="navbar">
+		<ul class="navbar__list">
+		<div class="navbar__list--center">
+			<li class="navbar__item"><a class="navbar__link" href="#home"><i class="fas fa-th-large"></i></a></li>
 
+			<li class="navbar__item"><a class="navbar__link active" href="#news"><i class="fas fa-share-alt"></i></a></li>
 
+			<li class="navbar__item"><a class="navbar__link" href="#contact"><i class="fas fa-user-friends"></i></a></li>
 
-
-
-
+			<li class="navbar__item"><a class="navbar__link">
+				<i class="fas fa-list-ul"></i>
+			</a></li>
+		</div>
+			<li class="navbar__item"><a class="navbar__link--bottom" href="#about"><img class="navbar__image" src="img/icon/icon_bottom_right.svg"></a></li>
+		</ul>
+	</nav>
+</section>
 	</body>
+
+	<script type="text/javascript" src="scss/partials/navbar.js"></script>
 </html>
