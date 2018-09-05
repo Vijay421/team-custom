@@ -1,13 +1,13 @@
 
 .payments-section {
 	background-color: #F7F8F9;
+	overflow: scroll;
 }
 
 .payments-colunms {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-evenly;
-	overflow-x: hidden;
 	max-height: 80vh;
 }
 
