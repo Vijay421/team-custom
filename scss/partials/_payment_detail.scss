@@ -1,0 +1,108 @@
+
+.payment-detail {
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	height: 165px;
+	width: 100%;
+	overflow: auto;
+	transition: all 0.5s;
+	
+	&:hover {
+		transform: scale(1.2) translateX(25px) translateY(-15px);
+		box-shadow: 5px 10px 20px 0px #88888842;
+	}
+
+	&__body {
+		width: 230px;
+		display: inline-block;
+	}
+
+	&__title {
+		font-size: 18px;
+		font-weight: bold;
+		margin: 0;
+		float: left;
+	}
+
+	&__discription {
+		color: #B8BFC5;
+		float: left;
+	}
+
+	&__fee {
+		width: 30px;
+		color: #E4354E;
+		font-weight: bolder;
+		border-radius: 100%;
+		background-color: #F9F3EF;
+		border: 18px solid #F9F3EF;
+		text-align: center;
+		float: right;
+	}
+
+	&__footer {
+
+		&--left {
+
+		}
+
+		&--right {
+			width: 135px;
+		}
+	}
+
+	&__profile-img {
+		
+	}
+
+	&__calendar {
+		width: 17px;
+	}
+
+	&__overdue-days {
+
+	}
+
+	&__footer {
+		height: 40px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__profile-img {
+
+	}
+
+	&__name {
+		line-height: 37px;
+		margin: 0 0 0 10px;
+		font-weight: bold;
+		float: left;
+	}
+
+	&__calendar {
+		width: 17px;
+		margin-top: 7px;
+	}
+
+	&__overdue-days {
+		margin: 0;
+		color: #E64960;
+		float: right;
+		line-height: 37px;
+	}
+
+	&__profile-initials {
+		width: 30px;
+		color: #E4354E;
+		font-weight: bolder;
+		border-radius: 100%;
+		background-color: #F9F3EF;
+		border: 5px solid #F9F3EF;
+		text-align: center;
+		margin: 0 0 0 0;
+		float: left;
+	}
+}

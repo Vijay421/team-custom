@@ -1,0 +1,11 @@
+.wrapper {
+	display: flex;
+	border: black 2px solid;
+	width: 100vw;
+	flex-flow: row nowrap;
+
+	&__left {
+		width: 95%;
+		background-color: #f7f8f9;
+	}
+}

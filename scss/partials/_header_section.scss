@@ -1,0 +1,56 @@
+html {
+  background: url(../../images/background-template.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  body {
+    padding:0;
+    margin:0;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 0 3% 0 6%;
+
+  }
+  .button__reminder--left {
+    color: dimgrey;
+    background-color: #f7f8f9;
+    text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 1px;
+    display: inline-block;
+    border: 1px solid lightgrey;
+  }
+  .button__payment--right {
+    background-color: #51c65b;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 23.5px;
+
+  }
+  .amount-color{
+    color:#e22944;
+    margin-left: 13px;
+  }
+
+.payments-section {
+    background-color: #F7F8F9;
+    padding: 0 40px 0 0;
+}
+
+.button {
+    margin-right: 3vw;
+}
