@@ -28,16 +28,16 @@ body {
 
     &__item {
       color: rgba(192,192,192,0.5);
-      padding: 17.5px 34px;
+      padding: 17.5px 30px;
       text-decoration: none;
-      transition: 1s;
+      transition: 0.6s;
     }
 
     &__item:hover {
         background-color: #fff;
-        color: #21990b;
-        border-left: solid #21998b 3px; 
-        transition: 1s;
+        color: #47C451;
+        border-left: solid #47C451 3px; 
+        transition: 0.6s;
     }
 
     &__logo {
@@ -84,14 +84,14 @@ body {
     &__letter {
       font-size: 30px;
       font-weight: bold;
-      color: #21990b;
+      color: #47C451;
     }
 
 }
 
 .active {
   background-color: #fff;
-  color: #21990b;
-  border-left: solid #21998b 3px;
+  color: #47C451;
+  border-left: solid #47C451 3px;
 }
 
