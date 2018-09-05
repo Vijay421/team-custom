@@ -7,6 +7,8 @@
 	display: flex;
 	flex-flow: row;
 	justify-content: space-evenly;
+	overflow-x: hidden;
+	max-height: 75vh;
 }
 
 .payments-colunm {

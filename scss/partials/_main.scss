@@ -1,15 +1,16 @@
 main{
-  display: flex;
-  justify-content: center;
-  width: 100vw;
+//  display: flex;
+//  justify-content: center;
+//  width: 100vw;
 }
 .wrapper {
 	display: flex;
 	border: black 2px solid;
-	width: 90%;
+	width: 100vw;
 	flex-flow: row nowrap;
 
 	&__left {
 		width: 95%;
+		background-color: #f7f8f9;
 	}
 }
