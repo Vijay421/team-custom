@@ -1,6 +1,9 @@
 .sass-cache/
 css/
 package-lock.json
+.idea/
+dist/
+
 
 # Logs
 logs
