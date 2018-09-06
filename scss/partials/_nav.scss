@@ -1,0 +1,104 @@
+
+body {
+  height: 100vh;
+}
+
+.navbar-section {
+  width: 5%;
+  height: 100vh;
+  border-right: 1px solid var(--dimgrey-light);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 1fr);
+    list-style-type: none;
+    grid-row-gap: 10px;
+    height: 100%;
+
+
+    &__icon {
+      width: 40%;
+      height: auto;
+      margin: auto;
+    }
+
+    &__icon--margin {
+      margin-left: 4.5px;
+    }
+
+    &__item {
+      color: var(--dimgrey-dark);
+      text-decoration: none;
+      transition: 0.6s;
+    }
+
+    &__item:hover {
+        background-color: var(--white-background);
+        color: var(--limegreen);
+        border-left: solid var(--limegreen) 3px; 
+        transition: 0.6s;
+    }
+
+    &__logo {
+      justify-self: center;
+      grid-column: 1/2;
+    }
+
+    &__apps {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 5/6;
+      padding: 17.5px 39%;
+    }
+
+    &__share {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 6/7;
+      padding: 17.5px 37.5%;
+    }
+    
+
+    &__friends {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 7/8;
+      padding: 17.5px 37.5%;
+    }
+
+    &__menu {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 8/9;
+      padding: 17.5px 39%;
+    }
+
+    &__menu--bottom {
+      justify-self: center;
+      grid-column: 1/1;
+      grid-row: 12/12;
+      padding: 17.5px 38%;
+    }
+
+    &__logo {
+      margin: 0;
+      padding: 0;
+      margin-top: 17%;
+    }
+
+    &__letter {
+      font-size: 30px;
+      font-weight: bold;
+      color: var(--limegreen);
+    }
+
+}
+
+.active {
+  background-color: var(--white-background);
+  color: var(--limegreen);
+  border-left: solid var(--limegreen) 3px;
+}
+
