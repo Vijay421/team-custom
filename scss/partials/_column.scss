@@ -1,6 +1,6 @@
 
 .payments-section {
-	background-color: #F7F8F9;
+	background-color: var(--white-main);
 	overflow-y: scroll;
 }
 
@@ -44,19 +44,19 @@
 	}
 
 	&__title {
-		color: #909AAC;
+		color: var(--gray-title);
 	}
 
 	&__counter {
-		border: 5px solid #ECEFF2;
-		background-color: #ECEFF2;
+		border: 5px solid var(--gray-counter);
+		background-color: var(--gray-counter);
 		border-radius: 11px;
 		height: 15px;
 		width: 20px;
 		text-align: center;
 
 		&--number {
-			color: #909AAC;
+			color: var(--gray-title);
 			margin: 0;
 			position: relative;
 			bottom: 5px;
