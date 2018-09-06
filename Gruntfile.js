@@ -1,6 +1,17 @@
 module.exports = grunt => {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		cssmin: {
+			options: {
+			  mergeIntoShorthands: false,
+			  roundingPrecision: -1
+			},
+			target: {
+			  files: {
+				'css/min.css': ['css/index.css']
+				}
+			}
+		},
 		sass: {
 			dist: {
 				files: {
@@ -11,7 +22,7 @@ module.exports = grunt => {
 		watch: {
 			css: {
 				files: '**/*.scss',
-				tasks: ['sass']
+				tasks: ['sass', 'cssmin']
 			},
 			js: {
 				files: '**/*.js',
@@ -29,8 +40,9 @@ module.exports = grunt => {
 			}
 		},
 	});
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-uglify-es');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default',['sass', 'uglify', 'watch']);
+	grunt.registerTask('default',['sass', 'uglify', 'cssmin', 'watch']);
 }
