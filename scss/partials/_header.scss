@@ -52,7 +52,7 @@ body {
 		text-decoration: none;
 	}
 
-	&__icon:focus + .account__settings {
+	&__icon:hover + .account__settings {
 		display: block;
 	}
 }
