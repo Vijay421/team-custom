@@ -1,5 +1,6 @@
 window.onload = () => {
 	setInitialColor();
+	
 };
 
 function setInitialColor() {
