@@ -1,4 +1,4 @@
-var list = document.getElementsByClassName("navbar");
+const list = document.getElementsByClassName("navbar");
 
 const items = document.getElementsByClassName("navbar__item");
 
