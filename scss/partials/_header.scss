@@ -4,14 +4,13 @@ body {
 	font-family: 'Mukta', sans-serif;
 }
 
-
 .toppage-header {
 	width: 100%;
 	height: 56px;
+	border: 1px 1px 1px 0px solid var(--dimgrey-light);
 	display: flex;
 	flex-wrap: nowrap;
-	background: #fff;
-	box-shadow: 0 5px 10px -5px gray;
+	background: var(--white-background);
 }
 
 .account {
@@ -32,10 +31,10 @@ body {
 	&__icon {
 		width: 6%;
 		margin-right: 0;
-		color: rgba(192,192,192,0.5);
 		padding-bottom: 20px;
 		position: relative;
 		top: 12px;
+		color: var(--dimgrey-dark);
 	}
 
 	&__settings {
@@ -81,7 +80,7 @@ body {
 	&__icon {
 		font-size: 23px;
 		padding-left: 10px; 
-		color: rgba(192,192,192,0.5); 
+		color: var(--dimgrey-dark);  
 	}
 
 }
@@ -97,17 +96,12 @@ ul {
 }
 
 ::placeholder {
-		color: rgba(192,192,192,0.5);
+		color: var(--dimgrey-dark); 
 }
-
-.fas {
-
-}
-
 .help {
 		height: 60px;
 		width: 6%;
-		border-left: solid rgba(192,192,192,0.5) 1px;
+		border-left: solid var(--dimgrey-dark)  1px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -117,7 +111,7 @@ ul {
     	padding: 19px;
     	height: 24px;
     	margin: auto;
-    	color: rgba(192, 192, 192, 0.5);
+    	color: var(--dimgrey-dark); 
     	filter: grayscale(100%);
     	transform: rotateZ(45deg);
 	}
@@ -125,7 +119,7 @@ ul {
 
 .notifications {
 
-		border-left: solid rgba(192,192,192,0.3) 1px;
+		border-left: solid var(--dimgrey-light) 1px;
 		width: 6%;
 		height: 60px;
 		display: flex;
