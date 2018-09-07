@@ -8,7 +8,7 @@
 	display: flex;
 	flex-flow: row;
 	justify-content: space-evenly;
-	max-height: 83vh;
+	max-height: 84vh;
 }
 
 @supports (-ms-ime-align: auto) {
@@ -16,7 +16,7 @@
 		display: flex;
 		flex-flow: row;
 		-webkit-justify-content: space-around;
-		max-height: 83vh;
+		max-height: 84vh;
 	}
 }
 

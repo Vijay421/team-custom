@@ -26,6 +26,7 @@ body {
 
 	&__name {
 		width: 60%;
+		color: var(--black);
 	}
 
 	&__icon {
@@ -68,6 +69,7 @@ body {
 	width: 70%;
 	display: flex;
 	align-items: center;
+	
 
 	&__bar {
 		width: 95%;
@@ -75,12 +77,15 @@ body {
 		border: none;
 		padding-left: 20px;
 		outline: none;
+		color: var(--black);
+		background-color: var(--white-background);
 	}
 
 	&__icon {
 		font-size: 23px;
 		padding-left: 10px; 
 		color: var(--dimgrey-dark);  
+		margin-right: 12px;
 	}
 
 }
@@ -94,7 +99,7 @@ body {
 ::placeholder {
 		color: var(--dimgrey-dark); 
 }
-.help {
+.night {
 		height: 60px;
 		width: 6%;
 		border-left: solid var(--dimgrey-dark)  1px;
@@ -103,19 +108,17 @@ body {
 		justify-content: center;
 
 
-	&__image {
+	&__icon {
     	padding: 19px;
     	height: 24px;
     	margin: auto;
-    	color: var(--dimgrey-dark); 
-    	filter: grayscale(100%);
-    	transform: rotateZ(45deg);
+    	color: var(--dimgrey-dark);
 	}
 }
 
 .notifications {
 
-		border-left: solid var(--dimgrey-light) 1px;
+		border-left: solid var(--dimgrey-dark) 1px;
 		width: 6%;
 		height: 60px;
 		display: flex;
