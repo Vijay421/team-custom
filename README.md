@@ -20,7 +20,7 @@ The payment section is made with flexbox because you can scroll down to see al t
 
 
 ## NIGHTMODE
-as a extra we have made a nightmode to see the page better when it is dark.
+As an extra we have made a nightmode to see the page better when it is dark.
 
 
 ## COMPATIBLE WITH
