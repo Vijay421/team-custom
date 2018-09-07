@@ -3,7 +3,7 @@ function switchToDark() {
 
 
     document.querySelector('.night')
-        .addEventListener('click', function () {
+        .addEventListener('click', () => {
             if (window.night) {
                 window.night = false;
                 document.documentElement.style.setProperty('--white-background', '#262626');
@@ -47,6 +47,7 @@ function switchToDark() {
                 document.documentElement.style.setProperty('--circle-red', '#f9f3ef');
                 document.documentElement.style.setProperty('--overdue-red', '#e64960');
                 document.documentElement.style.setProperty('--black', '#000000');
+            
             }
 
 
