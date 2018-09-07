@@ -27,7 +27,6 @@ As an extra we have made a nightmode to see the page better when it is dark.
 * Chrome
 * Firefox
 * Opera
-* Safari
 * Brave
 * Edge
 
@@ -38,6 +37,6 @@ As an extra we have made a nightmode to see the page better when it is dark.
 * Mitch
 * Stan
 
-# scrubmaster
+# SCRUMMASTER
 * Vijay
 
