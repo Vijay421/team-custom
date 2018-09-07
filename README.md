@@ -33,10 +33,10 @@ as a extra we have made a nightmode to see the page better when it is dark.
 
 
 ## MADE BY
-Jasper
-Brandon
-Mitch
-Stan
+* Jasper
+* Brandon
+* Mitch
+* Stan
 
 # scrubmaster
 Vijay
