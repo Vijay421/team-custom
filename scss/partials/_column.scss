@@ -16,6 +16,15 @@
 	max-height: 83vh;
 }
 
+@supports (-ms-ime-align: auto) {
+	.payments-colunms {
+		display: flex;
+		flex-flow: row;
+		-webkit-justify-content: space-around;
+		max-height: 83vh;
+	}
+}
+
 .payments-colunm {
 	width: 25%;
 
