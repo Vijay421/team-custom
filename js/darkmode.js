@@ -9,6 +9,7 @@ function switchToDark() {
                 document.documentElement.style.setProperty('--white-background', '#262626');
                 document.documentElement.style.setProperty('--gray-title', '#fff');
                 document.documentElement.style.setProperty('--white-main', '#262626');
+                document.documentElement.style.setProperty('--black', '#fff');
 
 
             }
